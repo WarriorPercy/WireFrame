@@ -1,0 +1,56 @@
+.description{
+    margin: 0 0 10px;
+}
+
+.phrase{
+   
+    clear: both;
+    }
+    
+    
+  
+
+    .ios {
+    height: 50px;
+    padding-top: 10px;
+    padding-left:20px;
+
+    }
+
+.android {
+    height: 50px;
+    padding-top: 10px;
+    padding-left:20px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+p {
+    margin: 0 0 10px;
+    size: 50px;
+}
+
+
+
+.idk{
+    display: flex;
+}
+
+.flex-container {
+    display: flex;
+  }
+
+
+  .appli{
+    height: 500px;
+    padding-top: 10px;
+    padding-left:20px;
+
+  }
+
+  li{
+    font-size: 25px;
+  }
