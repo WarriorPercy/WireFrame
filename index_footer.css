@@ -1,0 +1,133 @@
+.footer_container {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    height: 270px;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: white;
+    background-color: #000000;
+}
+
+.footer_intern {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footer_mention{
+    flex:2;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 10%;
+}
+
+.footer_NavColumn_1{
+    display:flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer_NavColumn_2{
+        display: flex;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -webkit-box-pack: start;
+        justify-content: flex-start;
+        align-items: flex-start;
+        font-size: 18px;
+        font-weight: 300;
+        margin-left: 10px;
+        margin-right: 10px;
+}
+
+a{
+        font-family: GTEestiProText, Helvetica, Arial, sans-serif;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: normal;
+        color: rgb(180, 180, 180);
+        text-decoration: none;
+        margin-bottom :1px;
+        transition: all 0.2s ease 0s;
+}
+
+.footer_home{
+    color:white;
+}
+
+.footer_pages{
+    flex:1;
+    box-sizing: border-box;
+    margin : 0px;
+    font-family: GTEestiProText, Helvetica, Arial, sans-serif;
+    line-height: normal;
+    letter-spacing: normal;
+    margin-bottom: 10px;
+    font-weight: 500;
+    
+}
+
+.footer_mention_legal{
+    flex:1;
+    box-sizing: border-box;
+    margin : 0px;
+    font-family: GTEestiProText, Helvetica, Arial, sans-serif;
+    line-height: normal;
+    letter-spacing: normal;
+    margin-bottom: 10px;
+    font-weight: 500;
+    
+}
+
+.footer_logo{
+    flex:2;
+}
+
+h3{
+    size:50px;
+    margin:0;
+}
+
+.footer_form{
+    flex:1;
+    box-sizing: border-box;
+    margin : 0px;
+    font-family: GTEestiProText, Helvetica, Arial, sans-serif;
+    line-height: normal;
+    letter-spacing: normal;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.footer_NavColumn_3{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 10px;
+    margin-right: 10px;
+}
