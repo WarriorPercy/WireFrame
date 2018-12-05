@@ -1,29 +1,9 @@
-.description{
-    margin: 0 0 10px;
-}
-
-.phrase{
-   
-    clear: both;
-    }
-    
-    
-  
-
-    .ios {
-    height: 50px;
-    padding-top: 10px;
-    padding-left:20px;
-
-    }
-
-.android {
-    height: 50px;
-    padding-top: 10px;
-    padding-left:20px;
-}
+/* body */ 
 
 img {
+    height: 50px;
+    padding-top: 10px;
+    padding-left:20px;
     vertical-align: middle;
 }
 
@@ -34,23 +14,55 @@ p {
 }
 
 
+/* citation */
 
-.idk{
-    display: flex;
+.part_1{
+      background-color: #0099cc;
+      
+  }
+
+  .citation{
+      
+    text-align : center;
 }
 
+hr{
+    width:65% ;
+}
+
+
+.cit{
+    padding-bottom: 20px;
+   }
+
+   /* fin citation */
+
+   /* description */ 
+   .part_2{
+    background-color: #ff5050;
+}
+
+
 .flex-container {
+    color: white;
     display: flex;
   }
 
-
-  .appli{
+   .appli{
     height: 500px;
     padding-top: 10px;
     padding-left:20px;
 
   }
 
-  li{
+
+ li{
     font-size: 25px;
   }
+
+ 
+
+ 
+ 
+ 
+ 
