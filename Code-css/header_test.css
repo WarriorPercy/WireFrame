@@ -1,3 +1,8 @@
+html, body {
+    margin : 0;
+    background-color: #E1740C;
+}
+
 .header_liste_menu {
     position: fixed;
     top: 0;
@@ -6,7 +11,8 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #B3BAC1;
+    background-color: #BC4107;
+    padding-inline-start: 0px;
 }
 
 li {
@@ -14,7 +20,7 @@ li {
 }
 
 li a {
-    display: block;
+    display: flex;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -22,11 +28,11 @@ li a {
 }
 
 li a:hover {
-    background-color: #8C8E90;
+    background-color: #973608;
 }
 
 .header_liste_menu button {
     padding: 16px 18px;
     border-radius: 25px;
-    background-color: #C6C7C8;
+    background-color: #E76B31;
 }
