@@ -1,0 +1,94 @@
+.first_div_citation {
+    text-align: center;
+    
+}
+
+.first_div_citation .citation_text {
+    font-style: italic;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.first_div_citation .citation_author {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.citation_terence {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.first_hr_citations {
+    width: 800px;
+}
+
+.second_hr_citations {
+    width: 1000px;
+}
+
+.citation_escoffier {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.second_div_fonctions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.fonctions_title a {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+}
+
+.fonctions_title {
+    margin: 50px;
+}
+
+.image_mockup_on_phone img {
+    display: block;
+    width: 300px;
+    height: 600px;
+}
+
+.image_mockup_on_phone {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.liste_fonctions li {
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo_smartphone_download {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.first_img_for_download img {
+    width: 135px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.second_img_for_download img {
+    width: 135px;
+    height: 40px;
+    margin-left: 15px;
+}
