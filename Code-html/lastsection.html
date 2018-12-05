@@ -4,24 +4,25 @@
 <head>
     <meta charset="utf-8">
     <title>Titre de la page</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="../Code-css/lastsection.css">
+    <script src="#"></script>
 </head>
 
 <body>
     <section>
-        <div class="left_div">
-            <img src="#" alt="last_section_left_div">
-        </div>
-        <div class="newsletters">
-            <a>Donner la thune</a>
+        <div class="last_section">
+            <div class="left_div">
+                <img src="../img/Logophone.PNG" alt="last_section_left_div" class="visutel">
+            </div>
+            <div class="newsletters">
+                <a>L'application sera bientôt disponible sous Android et IOS. Pour obtenir des
+                    informations sur les nouveautés et nos actualités, veuillez saisir votre email.</a>
+                <form class="form_newsletters" id="formulaire_newsletters" method="POST" action="../mail.php">
+                    <textarea class="text_form_newsletters" rows="2" cols="20" name="message" placeholder="user@example.com"></textarea>
+                    <input style="float: right" class="button_newsletters" type="submit" name="envoyer" value="Recevoir des Newsletters">
+                </form>
 
-            <form id="formulaire_newsletters" method="POST" action="../mail.php">
-                <label>Veuillez saisir votre adresse mail</label>
-                <textarea rows="2" cols="20" name="message" placeholder="user@example.com"></textarea>
-                <input type="submit" name="envoyer" value="Recevoir des Newsletters">
-            </form>
-
+            </div>
         </div>
     </section>
 </body>

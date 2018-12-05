@@ -19,7 +19,6 @@
 
 <?php
 
-$home = 'C:\Users\Utilisateur\Documents\Cours\B2\Intégration web\Wireframe\WireFrame\Code-html\lastsection.html';
 
 $fichier_email = 'C:\Users\Utilisateur\Documents\Cours\B2\Intégration web\Wireframe\WireFrame\test_file_email.txt';
 
@@ -31,16 +30,14 @@ if(isset($_POST['envoyer'])) {
 
 $new_email_value = $_POST['message'];
 
-$opening = fopen("$fichier_mail", "r+");
+$opening = fopen("$fichier_mail", "a+");
 
-$writing = fwrite($opening, $new_email_value);
+$writing = fwrite($opening, "$new_email_value\r\n");
 
-$closing = fclose("$opening");
+$closing = fclose($opening);
 
 } else {
     echo "Vous n'avez pas saisi de mail";
-
-    echo '<input type="button" class="button_home" onclick="location.href=\''.$home.'\';" value="Page principale">';'
 }
 
 ?>
