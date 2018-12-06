@@ -1,6 +1,6 @@
 html, body {
     margin : 0;
-    background-color: #E1740C;
+    background-color: #E8E2D9;
 }
 
 .header_liste_menu {
@@ -11,7 +11,7 @@ html, body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #BC4107;
+    background-color: #CA7207;
     padding-inline-start: 0px;
 }
 
@@ -28,13 +28,13 @@ li a {
 }
 
 li a:hover {
-    background-color: #973608;
+    background-color: #9F5B08;
 }
 
 .header_liste_menu button {
     padding: 16px 18px;
     border-radius: 25px;
-    background-color: #E76B31;
+    background-color: #E6B771;
     border: none;
     margin: 10px;
 }
