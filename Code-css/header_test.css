@@ -1,6 +1,6 @@
 html, body {
     margin : 0;
-    background-color: #E1740C;
+    background-color: rgb(232, 226, 217);
 }
 
 .header_liste_menu {
@@ -11,7 +11,7 @@ html, body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #BC4107;
+    background-color: rgb(202, 114, 7);
     padding-inline-start: 0px;
 }
 
@@ -20,10 +20,10 @@ li {
 }
 
 li a {
-    display: flex;
+    display: block;
     color: white;
     text-align: center;
-    padding: 23px 20px;
+    padding: 24px 20px;
     text-decoration: none;
 }
 
@@ -34,7 +34,7 @@ li a:hover {
 .header_liste_menu button {
     padding: 16px 18px;
     border-radius: 25px;
-    background-color: #E76B31;
+    background-color: rgb(230, 183, 113);
     border: none;
     margin: 10px;
 }

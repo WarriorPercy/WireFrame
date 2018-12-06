@@ -29,7 +29,7 @@
 .newsletters a {
     text-align: center;
     font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .form_newsletters {
@@ -40,7 +40,7 @@
 
 .button_newsletters {
     font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 10px;
     text-align: center;
     background-color: green;

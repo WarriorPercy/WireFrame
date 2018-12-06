@@ -1,10 +1,5 @@
-.mokeup_1_page_1{
-    background-color: rgb(168, 165, 165);
-}
-
 .text_H1_Firstpage {
-    font-family: GTEestiProDisplay, Helvetica, Arial, sans-serif;
-    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: normal;
     color: white;
     margin-block-start: 0px;
@@ -12,6 +7,8 @@
     text-align: center;
 }
 
-Imgtel1 {
-    
+.tel1 .Text1{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
