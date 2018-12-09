@@ -190,4 +190,29 @@ h3 {
   margin-left: 10px;
   margin-right: 10px;
 }
+
+@media only screen and (max-width: 1079px) and (min-width: 0px) {
+  .footer_pages {
+    font-size: 16px;
+  }
+  .footer_form {
+    font-size: 16px;
+  }
+  .footer_mention_legal {
+    font-size: 16px;
+  }
+  .a {
+    font-size: 18px;
+  }
+  .footer_allRightsReserved {
+    text-align: center;
+  }
+  .footer_mention {
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .footer_logo {
+    display: none;
+  }
+}
 /*# sourceMappingURL=index_footer.css.map */
