@@ -1,3 +1,7 @@
+.citation_html {
+    z-index: 1;
+}
+
 .first_div_citation {
     text-align: center;
     
@@ -47,10 +51,18 @@
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 20px;
+    margin-bottom: 30px;
 }
 
 .fonctions_title {
     margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    
 }
 
 .image_mockup_on_phone img {
@@ -61,7 +73,9 @@
 
 .image_mockup_on_phone {
     margin-left: 50px;
-    margin-right: 50px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 .liste_fonctions li {
@@ -69,6 +83,11 @@
     font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.liste_fonctions {
+    margin-bottom: 20px;
 }
 
 .logo_smartphone_download {
@@ -78,7 +97,7 @@
     align-items: center;
     position: relative;
     overflow: hidden;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -93,3 +112,7 @@
     height: 40px;
     margin-left: 15px;
 }
+ .div_liste_fonctions {
+     width: 50%;
+     height: 400px;
+ }

@@ -1,3 +1,7 @@
+.lastsection_html {
+    z-index: 1;
+}
+
 .left_div_last_section img {
     display: block;
     width: 300px;
