@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .mokeup_1_page_1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -20,7 +20,8 @@
       justify-content: space-between;
   background-color: black;
   overflow: hidden;
-=======
+}
+
 .interior_html {
 z-index: 1;
 }
@@ -38,7 +39,7 @@ z-index: 1;
     -webkit-box-pack: justify;
     justify-content: space-between;
     overflow: hidden;
->>>>>>> 87c286ee3bd13455f4de808c61415f8554c69f5d
+
 }
 
 .mokeup_2_page_1 {
