@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .mokeup_1_page_1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -19,6 +20,26 @@
       justify-content: space-between;
   background-color: black;
   overflow: hidden;
+=======
+.interior_html {
+z-index: 1;
+}
+
+.mokeup_1_page_1{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background-color: black;
+    overflow: hidden;
+>>>>>>> 87c286ee3bd13455f4de808c61415f8554c69f5d
 }
 
 .mokeup_2_page_1 {
