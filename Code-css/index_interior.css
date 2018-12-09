@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> d4a7801d3b3a62a5a032b35e8534f0a1b617ecb4
 .mokeup_1_page_1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -22,12 +19,11 @@
   -ms-flex-pack: justify;
       justify-content: space-between;
   overflow: hidden;
-<<<<<<< HEAD
 }
 
 .interior_html {
   z-index: 1;
-=======
+
 }
 
 .interior_html {
@@ -48,7 +44,7 @@ z-index: 1;
     justify-content: space-between;
     overflow: hidden;
 
->>>>>>> d4a7801d3b3a62a5a032b35e8534f0a1b617ecb4
+
 }
 
 .mokeup_2_page_1 {
